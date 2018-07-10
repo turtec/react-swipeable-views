@@ -112,7 +112,7 @@ class SwipeableViews extends React.Component {
      * This is the inlined style that will be applied
      * on the slide component.
      */
-    slideStyle: View.propTypes.style,
+    slideStyle: ViewPropTypes.style,
     /**
      * This is the config given to Animated for the spring.
      * This is useful to change the dynamic of the transition.
@@ -125,7 +125,7 @@ class SwipeableViews extends React.Component {
      * This is the inlined style that will be applied
      * on the root component.
      */
-    style: View.propTypes.style,
+    style: ViewPropTypes.style,
     /**
      * This is the threshold used for detecting a quick swipe.
      * If the computed speed is above this value, the index change.
